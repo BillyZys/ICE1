@@ -41,25 +41,25 @@ public class CardTrick {
         // If the guess is successful, invoke the printInfo() method below.
         hand[0]= new Card();
         hand[0].setValue(1);
-        hand[0].setValue("Hearts");        
+        hand[0].setSuit("Hearts");        
         hand[1]= new Card();
         hand[1].setValue(2);
-        hand[1].setValue("Clubs");        
+        hand[1].setSuit("Clubs");        
         hand[2]= new Card();
         hand[2].setValue(3);
-        hand[2].setValue("Diomonds");
+        hand[2].setSuit("Diomonds");
         hand[3]= new Card();
         hand[3].setValue(4);
-        hand[3].setValue("Spades");
+        hand[3].setSuit("Spades");
         hand[4]= new Card();
         hand[4].setValue(5);
-        hand[4].setValue("Clubs");
+        hand[4].setSuit("Clubs");
         hand[5]= new Card();
         hand[5].setValue(12);
-        hand[5].setValue("Hearts");
+        hand[5].setSuit("Hearts");
         hand[6]= new Card();
         hand[6].setValue(11);
-        hand[6].setValue("Hearts");
+        hand[6].setSuit("Hearts");
        
         Scanner input = new Scanner(System.in);
         int userValue =input.nextInt();
@@ -71,8 +71,9 @@ public class CardTrick {
     }
         
         
+        }
 
-    /**
+    }/**
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
      * @author YunshengZhao Feb 8, 2023
@@ -82,19 +83,19 @@ public class CardTrick {
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
+        System.out.println("My name is YunshengZhao, but you can call me Billy");
         System.out.println();
         
         System.out.println("My career ambitions:");
-        System.out.println("-- Be more active on LinkedIn");
-        System.out.println("-- Have a semester with no violations of academic integrity!");
- System.out.println(); 
+        System.out.println("-- Be more active on Lecture");
+        System.out.println("-- Find a nice internship during this summer time !");
+        System.out.println(); 
 
         System.out.println("My hobbies:");
-        System.out.println("-- Investing");
+        System.out.println("-- Coding");
         System.out.println("-- Cooking");
         System.out.println("-- Reading/Watching TV");
-        System.out.println("-- Riding my motorcycle");
+        System.out.println("-- Riding my bike");
 
         System.out.println();
         
